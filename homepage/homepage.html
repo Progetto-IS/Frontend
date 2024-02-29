@@ -109,8 +109,19 @@
             <img class="copertina-book" src="copertine-libri/copertina-10.jpeg">
           </div>
         </div class="archivio-button-container">
-        <button class="archivio-button">
+        <button class="archivio-button" id="archivioButton">
           Archivio
         </button>
+
+        <script>
+          // Seleziona il bottone di archivio
+          var loginButton = document.getElementById("archivioButton");
+  
+          // Aggiungi un evento di click al bottone di archio
+          loginButton.addEventListener("click", function() {
+              // Reindirizza l'utente alla pagina archivio.html
+              window.location.href = "../archivio/archivio.html";
+          });
+      </script>
   </body>
 </html>
