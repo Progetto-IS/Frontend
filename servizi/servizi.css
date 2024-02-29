@@ -1,0 +1,28 @@
+.servizi-container{
+  margin-top: 100px;
+}
+.titolo{
+  text-align: center;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-bottom: 7px;
+}
+
+p{
+  padding: 0 15px 0 15px;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}
+
+.titolo-paragrafo{
+  text-align: start;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-bottom: 7px;
+}
